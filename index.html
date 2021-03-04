@@ -4,79 +4,123 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" >
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/a147c415ba.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
 
 
 <body>
-    <div id="bloc_page">
+    <div class="bloc_page">
         <header>
             <div class=logo>
                 <p><img src="images/logo/Reservia@3x.png" alt="logo_reservia" /></p>
             </div>
+
             <nav>
                 <ul>
-                    <li class="hebergement"><a href="#">Hébergements</a></li>
-                    <li class="activites"><a href="#">Activités</a></li>
+                    <li class="hebergement"><a href="#hebergements">Hébergements</a></li>
+                    <li class="activites"><a href="#activites">Activités</a></li>
                 </ul>
                 <p><a href="#" class="s_inscrire">S'inscrire</a></p>
             </nav>
-            <div class="recherche"></br>
+
+            <div class="recherche">
                 <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
                 <p>En plein centre ville ou en pleine nature</p>
                 <form method="post" action="page_fictive">
                     <p>
-                        <i class="fas fa-map-marker-alt"></i>
-                        <input class="champ_de_recherche"type="text" name="ville" id="ville" placeholder="Marseille,France" />
-                        <input class="bouton_de_recherche"type="submit" value="Rechercher" />
+                        <span class="mapmarker">
+                             <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        <input class="champ_de_recherche" type="text" name="ville" id="ville"
+                            placeholder="Marseille,France" />
+                        <input class="bouton_de_recherche" type="submit" value="Rechercher" />
                     </p>
                 </form>
             </div>
+
             <div class="filtres">
                 <h3>Filtres</h3>
                 <p class="economique"><i class="fas fa-money-bill-wave"></i>
-                    <h3>Economique</h3>
+                <h3>Economique</h3>
                 </p>
                 <p class="familial"><i class="fas fa-child"></i>
-                    <h3>Familial</h3>
+                <h3>Familial</h3>
                 </p>
                 <p class="romantique"><i class="fas fa-heart"></i>
-                    <h3>Romantique</h3>
+                <h3>Romantique</h3>
                 </p>
                 <p class="animaux_autorises"><i class="fas fa-dog"></i>
-                    <h3>Animaux autorisés</h3>
+                <h3>Animaux autorisés</h3>
                 </p>
             </div>
+
             <p class="info">
                 <i class="fas fa-info-circle" aria-hidden="true"></i>
                 Plus de 500 logements sont disponibles dans cette ville
             </p>
         </header>
-        <div>
-            <!-- heberment-->
-        </div>
+
+        <section>
+            <h2 id="hebergements">Hébergements à Marseille</h2>
+            <div class="aubergelacannebiere"></div>
+            <div class="hotelduport"></div>
+            <div class="hotellesmouettes"></div>
+            <div class="hoteldelamer"></div>
+            <div class="aubergelepanier"></div>
+            <div class="hotelchezamina"></div>
+        </section>
+
         <aside>
-            <!--  les plus populaires -->
+            <h2>Les plus populaires</h2>
+            <div class="hotellesoleildumatin"></div>
+            <div class="aucoeurdeleauchambresdhotes"></div>
+            <div class="hoteltoutbleuetblanc"></div>
         </aside>
+
         <div>
-            <!-- activités à marseille-->
+            <h2 id="activites">Activités à Marseille</h2>
+            <div class="vieuxport"></div>
+            <div class="fortdepomegues"></div>
+            <div class="ilesdufrioul"></div>
+            <div class="parcnationaldescalanques"></div>
+            <div class="notredamedelagarde"></div>
+            <div class="parclongchamp"></div>
         </div>
+
         <footer>
-            <div>
-                <!-- à propos-->
+            <div class="a_propos">
+                <h3>A propos</h3>
+                <ul>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales de vente</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
+                </ul>
             </div>
-            <div>
-                <!-- nos hébergements-->
+
+            <div class="nos_hebergements">
+                <h3>Nos hébergements</h3>
+                <ul>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Soumettre votre hotel</a></li>
+                </ul>
             </div>
-            <div>
-                <!-- assistance-->
+
+            <div class="assistance">
+                <h3>Assistance</h3>
+                <ul>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                </ul>
             </div>
+
         </footer>
-        
+
     </div>
-    
+
 </body>
 
 </html>
