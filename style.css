@@ -1,5 +1,4 @@
 
-
 .bloc_page{
     width:1800px;
     margin:auto;
@@ -31,6 +30,7 @@ nav ul{
 nav ul a{
     color:black;
 }
+
 nav a{
     text-decoration:none;
 }
@@ -45,6 +45,10 @@ nav p a{
     color:b#0065fc;
     font-weight:bold;
     text-decoration: none;
+}
+
+.recherche{
+    margin-top:40px;
 }
 
 .recherche h2{
@@ -99,7 +103,6 @@ nav p a{
     height:23px;
     margin-top: 5px;
 }
-
 
 p , li , h2 ,h3{
 	font-family: Raleway,serif;
