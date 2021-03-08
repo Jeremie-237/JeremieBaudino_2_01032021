@@ -57,19 +57,20 @@ nav p a{
 
 .bouton_de_recherche{
     font-family: Raleway,serif;
-    width:100px;
-    height:35px;
+    width:134px;
+    height:51px;
     background:#0065FC;
     color:white;
     border:none;
     font-weight: bold;
+    font-size:initial;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 
 .champ_de_recherche{
-    width:190px;
-    height:30px;
+    width:235px;
+    height:46px;
     border-left:none;
     border-right:none;
     font-family: Raleway,serif;
@@ -89,8 +90,8 @@ nav p a{
 
 .mapmarker{
     display:inline-flex;
-    width:40px;
-    height:37px;
+    width:49px;
+    height:51px;
     background-color: #f2f2f2;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
