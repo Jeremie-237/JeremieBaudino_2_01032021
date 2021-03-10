@@ -1,8 +1,7 @@
 
-.bloc_page{
-    max-width:100%;
-    padding:45px;
-    height:100%
+.bloc_page{ 
+    width:95%;
+    padding:40px;
 }
 
 .logo{
@@ -183,37 +182,62 @@ nav li :hover{
     align-items: center;
 }
 
+.partie_centrale{
+    display:flex;
+    justify-content:space-between;
+}
+
+.main_section_hebergements{
+    display:flex;
+    flex-wrap: wrap;
+}
+
 .hebergements{
     background-color:#f2f2f2;
-    max-width: 65%;
+    width: 68%;
     max-height: 50%;
     border-radius: 20px;
     padding-top:2%;
     margin-top:2%;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.hebergements h2{
+    margin-top:10px;
 }
 
 .bloc_hotel{
-    max-width: 30%;
-    max-height: 15%;
+    width:28%;
     background-color: white;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 20px 20px 20px 20px;
     margin: 15px 15px 15px 15px;
 }
 
-.bloc_hotel h3 p{
-    margin-top: 10px;
+.bloc_hotel h3{
+    padding-left:10px;
+    margin-top:5px;
+    margin-bottom:5px;
 }
 
-a img{
+.bloc_hotel i{
+    padding-left:10px;
+    margin-bottom:10px;
+}
+
+.bloc_hotel p{
+    padding-left: 10px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.bloc_hotel img{
     width: 95%;
     height:10rem;
     object-fit:cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    margin-top: 10px;
+    margin-top: 9px;
     margin-left: 8px;
 }
 
@@ -225,16 +249,58 @@ a img{
     color:#d8d8d8;
 }
 
+.en-tete{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .les_plus_populaires{
     background-color:#f2f2f2;
     max-width: 30%;
-    max-height: 50%;
+    height: 50%;
     border-radius: 20px;
     padding-top:2%;
     margin-top:2%;
-
 }
 
+.hotel_populaire{
+    width:85%;
+    height:11%;
+    background-color: white;
+    margin: 35px 35px 35px 35px;
+    display:flex;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.hotel_populaire img{
+    width:45%;
+    height:11rem;
+    object-fit:cover;
+    margin: 7px 10px 7px 7px;
+    border-bottom-left-radius: 20px; 
+    border-top-left-radius: 20px;
+}
+
+.hotel_populaire a{
+    text-decoration: none;
+}
+
+.descriptif{
+    width:50%;
+}
+
+.descriptif h3{
+    height:15%;
+}
+
+.descriptif i{
+    margin-top:3vw;
+}
+
+.fa-chart-line{
+    font-size:x-large;
+}
 
     
 
