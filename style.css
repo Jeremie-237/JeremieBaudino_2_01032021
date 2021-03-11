@@ -1,7 +1,8 @@
 
 .bloc_page{ 
     width:95%;
-    padding:40px;
+    padding:2%;
+    height:95%;
 }
 
 .logo{
@@ -185,11 +186,23 @@ nav li :hover{
 .partie_centrale{
     display:flex;
     justify-content:space-between;
+    margin-bottom: 3%;
+}
+
+.partie_centrale a{
+    text-decoration: none;
+    color: black;
+}
+
+.partie_centrale a:hover{
+    color:green;
+    text-decoration: underline;
 }
 
 .main_section_hebergements{
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .hebergements{
@@ -204,7 +217,13 @@ nav li :hover{
 }
 
 .hebergements h2{
-    margin-top:10px;
+    margin-top:2vw;
+    margin-left: 2vw;
+}
+
+.hebergements a h3{
+    margin-top:2vw;
+    margin-left: 2vw;
 }
 
 .bloc_hotel{
@@ -255,6 +274,11 @@ nav li :hover{
     align-items: center;
 }
 
+.en-tete h2{
+    margin-right: 5vw;
+    margin-top: 2vw;
+}
+
 .les_plus_populaires{
     background-color:#f2f2f2;
     max-width: 30%;
@@ -301,6 +325,83 @@ nav li :hover{
 .fa-chart-line{
     font-size:x-large;
 }
+
+.bloc2 img{
+    display:flex;
+    align-content: ;
+    width:90%;
+    height:10rem;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+}
+
+.bloc1 img{
+    width:90%;
+    height:25rem;
+    object-fit:cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activites_a_marseille{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 100%;
+    height: 15%;
+    padding-bottom: 2%;
+}
+
+.activites_a_marseille h2{
+    width:100%;
+}
+
+.bloc1{
+    width:24%;
+}
+
+.bloc2{
+    width:24%;
+}
+
+figcaption h3{
+    box-shadow: 2px 2px 20px rgb(230 230 230);
+    width:90%;
+}
+
+footer{
+    background:#f2f2f2;
+    display:flex;
+    width:100%;
+    padding-top:5%;
+}
+
+footer a{
+    color:black;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:#0065fc;
+}
+
+footer ul li{
+    list-style: none;
+    margin-bottom:10px;
+}
+
+footer div{
+    margin-right: 16vw;
+    margin-bottom: 3vw;
+}
+
+footer h3{
+    margin-left: 2vw;
+}
+
+    
+
 
     
 
