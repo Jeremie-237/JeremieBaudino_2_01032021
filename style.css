@@ -238,7 +238,8 @@ nav li :hover{
 }
 
 .bloc_hotel .stars{
-    margin-bottom: 10px;
+    margin-bottom: 6%;
+    margin-left:3%;
 }
 
 .stars i{
@@ -251,9 +252,7 @@ nav li :hover{
     margin-bottom:5px;
 }
 
-.bloc_hotel i{
-    padding-left:10px;
-}
+
 
 .bloc_hotel p{
     padding-left: 10px;
@@ -286,7 +285,7 @@ nav li :hover{
 .en-tete{
     display:flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
 }
 
 .en-tete h2{
@@ -299,7 +298,6 @@ nav li :hover{
     max-width: 30%;
     height: 50%;
     border-radius: 20px;
-    padding-top:2%;
     margin-top:2%;
 }
 
@@ -309,7 +307,7 @@ nav li :hover{
     background-color: white;
     margin: 35px 35px 35px 35px;
     display:flex;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 25px;
     box-shadow: 4px 20px 20px rgb(230 230 230);
 }
 
@@ -416,7 +414,7 @@ footer{
     background:#f2f2f2;
     display:flex;
     width:100%;
-    padding-top:5%;
+    padding-top:2%;
 }
 
 footer a{
@@ -434,7 +432,7 @@ footer ul li{
 }
 
 footer div{
-    margin-right: 16vw;
+    margin-right: 10vw;
     margin-bottom: 3vw;
 }
 
