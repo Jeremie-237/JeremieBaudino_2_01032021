@@ -1,8 +1,9 @@
 
 .bloc_page{ 
-    width:95%;
-    padding:2%;
-    height:95%;
+    width: clamp(1200px, 100%, 1500px);
+    height: max(1200px, 100%);
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .logo{
@@ -185,6 +186,7 @@ nav li :hover{
 
 .partie_centrale{
     display:flex;
+    flex-wrap: wrap;
     justify-content:space-between;
     margin-bottom: 3%;
 }
@@ -201,6 +203,7 @@ nav li :hover{
 
 .main_section_hebergements{
     display:flex;
+    width: clamp(1200px, 95%, 1500px);
     flex-wrap: wrap;
     justify-content:space-evenly;
 }
@@ -221,7 +224,7 @@ nav li :hover{
 }
 
 .hebergements h4{
-    margin-top:2vw;
+    font-size: larger;
     margin-left:2vw;
 }
 
@@ -230,8 +233,16 @@ nav li :hover{
     height:43%;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-    margin: 15px 15px 15px 15px;
+    margin: 15px;
     box-shadow: 4px 20px 20px rgb(230 230 230);
+}
+
+.bloc_hotel .stars{
+    margin-bottom: 10px;
+}
+
+.stars i{
+    padding: 0px;
 }
 
 .bloc_hotel h3{
@@ -257,7 +268,7 @@ nav li :hover{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin-top: 9px;
-    margin-left: 8px;
+    margin-left: 9px;
 }
 
 .bloc_hotel img:hover{
@@ -303,12 +314,12 @@ nav li :hover{
 }
 
 .hotel_populaire img{
-    height:10vw;
-    width:10vw;
+    height:10rem;
+    width:10rem;
     object-fit:cover;
-    margin: 7px 10px 7px 7px;
-    border-bottom-left-radius: 20px; 
-    border-top-left-radius: 20px;
+    border-bottom-left-radius: 15px; 
+    border-top-left-radius: 15px;
+    margin:0.5vw;
 }
 
 .hotel_populaire img:hover{
@@ -317,14 +328,25 @@ nav li :hover{
 
 .descriptif{
     width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    margin-top:7px;
+    margin-bottom:10px;
+}
+
+.descriptif_label{
+    display:flex;
+    flex-direction:column;
 }
 
 .descriptif h3{
-    height:15%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
-.descriptif i{
-    margin-top:3vw;
+.descriptif p{
+    margin:0px;
 }
 
 .fa-chart-line{
