@@ -6,6 +6,12 @@
     margin-left: auto;
 }
 
+@media all and (max-width: 500px){
+    .bloc_page{
+        width:100%
+    }
+}
+
 .logo{
     float: left;
     height:40px;
@@ -48,6 +54,50 @@ nav li :hover{
     padding-top:20px;
     color: #0065fc;
 }
+
+@media all and (max-width: 500px){
+
+     nav{
+         flex-direction:column-reverse;
+         width:100%;
+     }
+
+     nav ul{
+         width:100%;
+         display:flex;
+         justify-content: space-around;
+         padding-left:0;
+     }
+
+     nav ul a{
+         justify-content:space-around;
+     }
+
+     nav p{
+         align-self: flex-end;
+         margin-top:0;
+     }
+
+     nav li :hover{
+         border-bottom:2px solid #0065fc;
+         border-top: none;
+         padding-bottom: 20px;
+     }
+
+     .recherche h2{
+         text-align: justify;
+         
+     }
+
+     .logo img{
+         margin-left:18%;
+         height:5%;
+
+     }
+}
+
+
+
 
 .recherche{
     margin-top:40px;
@@ -113,6 +163,48 @@ nav li :hover{
     margin-top: 5px;
 }
 
+.bouton_loupe{
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+@media all and (max-width: 500px){
+
+    .recherche{
+        margin-left: 5%;
+    }
+
+    .bouton_de_recherche{
+        display:none;
+    }
+
+    .bouton_loupe{
+        width:49px;
+        height:51px;
+        background-color: #0065fc;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .fa-search{
+        color:white;
+        font-size: medium;
+    }
+
+    .champ_de_recherche{
+        width:69%;
+    }
+
+    .logo{
+        width:15%;
+    }
+
+    .info{
+        margin-bottom: 10%;
+    }
+}
+
 *{
 	font-family: Raleway,serif;
 }
@@ -124,6 +216,25 @@ nav li :hover{
     margin-bottom:44px;
     margin-top:36px;
 }
+
+@media all and (max-width: 500px){
+
+    .filtres{
+        width:100%;
+        flex-wrap:wrap;
+        margin-left:3%;
+    }
+
+    .filtres h3{
+        width:100%;
+    }
+
+    .filtres button{
+        margin-bottom: 4%;
+    }
+}
+
+
 
 .filtres h3{
     margin-left:9px;
@@ -201,6 +312,21 @@ nav li :hover{
     text-decoration: underline;
 }
 
+@media all and (max-width: 500px){
+    
+     .partie_centrale{
+         display:flex;
+         flex-direction: column-reverse;
+         width:100%;
+     }
+
+     .les_plus_populaires{
+         width:100%;
+         
+     }
+
+}
+
 .main_section_hebergements{
     display:flex;
     width: clamp(1200px, 95%, 1500px);
@@ -251,8 +377,6 @@ nav li :hover{
     margin-top:5px;
     margin-bottom:5px;
 }
-
-
 
 .bloc_hotel p{
     padding-left: 10px;
@@ -440,7 +564,11 @@ footer h3{
     margin-left: 2vw;
 }
 
-    
+
+@media all and (max-device-width: 500px)
+{
+
+}
 
 
     
