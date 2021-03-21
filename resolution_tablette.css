@@ -1,10 +1,38 @@
-@media all and (min-width:701px) and (max-width:1250px){
-
-    nav p{
-        margin-left:5%;
-        margin-right: 5%;
-        
-    }
-
+nav{
+     justify-content: center;
 }
-    
+
+.filtres{
+     flex-wrap: wrap;
+}
+
+.partie_centrale{
+     max-width: 100%;
+}
+
+.les_plus_populaires{
+     max-width: 30%;
+     margin-right: 30%;
+}
+
+.activites_a_marseille{
+    flex-wrap:wrap;
+    margin-right:5%;
+}
+
+.bloc1 , .bloc2{
+    width:65%;
+    margin-right:25%;
+}
+
+.hebergements{
+    width: 37%;
+}
+
+.bloc_hotel{
+    max-height:3%;
+}
+
+.bouton_filtre{
+    margin-right:1%;
+}

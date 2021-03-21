@@ -50,17 +50,15 @@ nav li :hover{
 }
 
 .recherche{
-    margin-top:40px;
-    margin-bottom:15px;
+    margin-top:4%;
 }
 
 .recherche h2{
     text-align:left;
-    margin-bottom: 17px;
 }
 
 .recherche form{
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 .bouton_de_recherche{
@@ -127,12 +125,8 @@ nav li :hover{
     display:flex;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom:44px;
-    margin-top:36px;
-}
-
-.filtres h3{
-    margin-left:9px;
+    margin-bottom:4%;
+    margin-top:4%;
 }
 
 .bouton_filtre{
@@ -146,7 +140,7 @@ nav li :hover{
     font-size:large;
     font-weight:bolder;
     padding:unset;
-    margin-right: 25px;
+    margin-right: 2%;
 }
 
 .filtres .fas{
@@ -166,7 +160,7 @@ nav li :hover{
 }
 
 .filtres span , h3{
-    margin-right: 18px;
+    margin-right: 1vw;
 }
 
 .fa-info{
@@ -178,16 +172,6 @@ nav li :hover{
     padding-left: 8px;
     padding-top: 3px;
     border-radius: 45%;
-}
-
-.info p{
-    font-weight:500;
-    margin-left:12px;
-}
-
-.info{
-    display:flex;
-    align-items: center;
 }
 
 .partie_centrale{
@@ -239,7 +223,7 @@ nav li :hover{
     height:43%;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-    margin: 15px;
+    margin: 1%;
     box-shadow: 4px 20px 20px rgb(230 230 230);
 }
 
@@ -253,15 +237,15 @@ nav li :hover{
 }
 
 .bloc_hotel h3{
-    padding-left:10px;
-    margin-top:5px;
-    margin-bottom:5px;
+    padding-left:3%;
+    margin-top:1.5%;
+    margin-bottom:1.5%;
 }
 
 .bloc_hotel p{
-    padding-left: 10px;
-    margin-top:5px;
-    margin-bottom:5px;
+    padding-left: 3%;
+    margin-top:1%;
+    margin-bottom:1%;
 }
 
 .bloc_hotel img{
@@ -270,8 +254,8 @@ nav li :hover{
     object-fit:cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    margin-top: 9px;
-    margin-left: 9px;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
 }
 
 .bloc_hotel img:hover{
@@ -293,23 +277,21 @@ nav li :hover{
 }
 
 .en-tete h2{
-    margin-right: 5vw;
-    margin-top: 2vw;
+    margin-top: 11%;
 }
 
 .les_plus_populaires{
     background-color:#f2f2f2;
     max-width: 30%;
-    height: 50%;
+    max-height: 50%;
     border-radius: 20px;
     margin-top:2%;
 }
 
 .hotel_populaire{
     width:85%;
-    height:11%;
     background-color: white;
-    margin: 35px 35px 35px 35px;
+    margin: 8%;
     display:flex;
     border-radius: 25px;
     box-shadow: 4px 20px 20px rgb(230 230 230);
@@ -348,7 +330,7 @@ nav li :hover{
 }
 
 .descriptif p{
-    margin:0px;
+    margin:0%;
 }
 
 .fa-chart-line{
@@ -432,12 +414,12 @@ footer a:hover{
 
 footer ul li{
     list-style: none;
-    margin-bottom:10px;
+    margin-bottom:3%;
 }
 
 footer div{
-    margin-right: 10vw;
-    margin-bottom: 3vw;
+    margin-right: 14%;
+    margin-bottom: 8%;
 }
 
 footer h3{
