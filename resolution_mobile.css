@@ -1,5 +1,5 @@
 .bloc_page{
-     width: 100%;
+     width: clamp(450px,97%,720px)
     }
     
     /* nav */
