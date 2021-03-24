@@ -6,27 +6,26 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
           rel="stylesheet"/>
-    <link rel="stylesheet" media="screen and (min-width:721px) and (max-width:1250px)" href="resolution_tablette.css" />
-    <link rel="stylesheet" media="screen and (max-width: 720px)" href="resolution_mobile.css" />
     <script src="https://kit.fontawesome.com/a147c415ba.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
 
 
 <body>
-    <div class="bloc_page">
+    <div class="container">
         <header>
-            <div class=logo>
-                 <p><img src="images/logo/Reservia@3x.png" alt="logo_reservia" /></p>
+            <div class="bloc_header">
+                 <div class=logo>
+                     <img src="images/logo/Reservia.svg" alt="logo_reservia" />
+                 </div>
+                 <nav>
+                     <ul>
+                         <li><a href="#hebergements">Hébergements</a></li>
+                         <li><a href="#activites">Activités</a></li>
+                     </ul>
+                 <p><a href="#" class="s_inscrire">S'inscrire</a></p>
+                 </nav>
             </div>
-
-            <nav>
-                <ul>
-                     <li><a href="#hebergements">Hébergements</a></li>
-                     <li><a href="#activites">Activités</a></li>
-                </ul>
-                <p><a href="#" class="s_inscrire">S'inscrire</a></p>
-            </nav>
 
              <div class="recherche">
                  <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
@@ -241,7 +240,7 @@
              <div class="bloc1">
                  <figure>
                      <a href="#">
-                         <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux_port"/>
+                         <img class="image_activites image_longue" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux_port"/>
                      </a>
                      <figcaption>Vieux Port</figcaption>
                  </figure>
@@ -249,13 +248,13 @@
              <div class="bloc2">
                  <figure>
                      <a href="#">
-                         <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort_de_pomegues"/>
+                         <img class="image_activites image_courte" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort_de_pomegues"/>
                      </a>
                      <figcaption>Fort de Pomègues</figcaption>
                  </figure>
                  <figure>
                      <a href="#">
-                         <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="iles_du_frioul"/>
+                         <img class="image_activites image_courte" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="iles_du_frioul"/>
                      </a>
                      <figcaption>Iles du Frioul</figcaption>
                  </figure>
@@ -263,7 +262,7 @@
             <div class="bloc1">
                  <figure>
                      <a href="#">
-                         <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc_national_des_calanques"/>
+                         <img class="image_activites image_longue" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc_national_des_calanques"/>
                      </a>
                      <figcaption>Parc National des Calanques</figcaption>
                  </figure>
@@ -271,48 +270,49 @@
             <div class="bloc2">
                  <figure>
                      <a href="#">
-                         <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="notre_dame_de_la_garde"/>
+                         <img class="image_activites image_courte" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="notre_dame_de_la_garde"/>
                      </a>
                      <figcaption>Notre Dame de la Garde</figcaption>
                  </figure>
                  <figure>
                      <a href="#">
-                         <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="parc_longchamp"/>
+                         <img class="image_activites image_courte" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="parc_longchamp"/>
                      </a>
                      <figcaption>Parc Longchamp</figcaption>
                  </figure>
             </div>
             </section>
+    </div>
 
-        <footer>
-            <div class="a_propos">
-                <h3>A propos</h3>
-                <ul>
+    <footer>
+         <div class="container footer">
+             <div class="a_propos">
+                 <h3>A propos</h3>
+                 <ul>
                      <li><a href="#">Fonctionnement du site</a></li>
                      <li><a href="#">Conditions générales de vente</a></li>
                      <li><a href="#">Données et confidentialité</a></li>
-                </ul>
-            </div>
+                 </ul>
+             </div>
 
-            <div class="nos_hebergements">
-                <h3>Nos hébergements</h3>
-                <ul>
+             <div class="nos_hebergements">
+                 <h3>Nos hébergements</h3>
+                 <ul>
                      <li><a href="#">Charte qualité</a></li>
                      <li><a href="#">Soumettre votre hotel</a></li>
-                </ul>
-            </div>
+                 </ul>
+             </div>
 
-            <div class="assistance">
-                <h3>Assistance</h3>
-                <ul>
+             <div class="assistance">
+                 <h3>Assistance</h3>
+                 <ul>
                      <li><a href="#">Centre d'aide</a></li>
                      <li><a href="#">Nous contacter</a></li>
-                </ul>
-            </div>
+                 </ul>
+             </div>
+         </div>
 
-        </footer>
-
-    </div>
+    </footer>
 
 </body>
 
