@@ -37,7 +37,7 @@ nav a{
 }
 
 nav p a{
-    color:b#0065fc;
+    color:#0065fc;
     font-weight:bold;
     text-decoration: none;
 }
@@ -323,8 +323,8 @@ nav li :hover{
 }
 
 .descriptif h3{
-    margin-block-start: 0px;
-    margin-block-end: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .descriptif p{
