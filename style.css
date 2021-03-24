@@ -44,7 +44,7 @@ nav p a{
 
 nav li :hover{
     border-top:2px solid #0065fc;
-    padding-top:60px;
+    padding-top:50px;
     color: #0065fc;
 }
 
@@ -620,7 +620,12 @@ footer div{
      
     nav li{
         width:100%;
-        margin-left:20%;
+        margin-left:10%;
+    }
+
+    nav li a{
+        padding-right:14vw;
+        padding-left:14vw;
     }
    
     nav li :hover{
