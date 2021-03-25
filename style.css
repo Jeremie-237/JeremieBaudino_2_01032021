@@ -586,6 +586,10 @@ footer div{
     .footer , ul{
         padding-left:0%;
     }
+
+    .footer ul li{
+        margin-bottom:6%;
+    }
     
 }
 
