@@ -158,7 +158,7 @@ nav li :hover{
     background-color: #f2f2f2;
 }
 
-.filtres span , h3{
+.filtres span {
     margin-right: 1vw;
 }
 
@@ -297,7 +297,7 @@ nav li :hover{
 
 .hotel_populaire img{
     height:10rem;
-    width:10rem;
+    width:9rem;
     object-fit:cover;
     border-bottom-left-radius: 15px; 
     border-top-left-radius: 15px;
@@ -323,7 +323,7 @@ nav li :hover{
 }
 
 .descriptif h3{
-    margin-top: 0px;
+    margin-top: 6px;
     margin-bottom: 0px;
 }
 
@@ -932,7 +932,7 @@ footer div{
        background-color: #f2f2f2;
    }
    
-   .filtres span , h3{
+   .filtres span {
        margin-right: 1vw;
    }
    
@@ -1071,7 +1071,7 @@ footer div{
    
    .hotel_populaire img{
        height:10rem;
-       width:10rem;
+       width:9rem;
        object-fit:cover;
        border-bottom-left-radius: 15px; 
        border-top-left-radius: 15px;
@@ -1097,7 +1097,7 @@ footer div{
    }
    
    .descriptif h3{
-       margin-top: 0px;
+       margin-top: 6px;
        margin-bottom: 0px;
    }
    
