@@ -694,6 +694,10 @@ footer div{
     .filtres button{
         margin-bottom: 4%;
        }
+
+    .filtres span{
+        padding-right: 10px;
+       }
    
        /* bloc partie centrale */
    
@@ -1472,6 +1476,10 @@ footer div{
       
        .filtres button{
            margin-bottom: 4%;
+          }
+
+        .filtres span{
+            padding-right:10px;
           }
       
           /* bloc partie centrale */
