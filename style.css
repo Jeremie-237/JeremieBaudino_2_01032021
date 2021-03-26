@@ -314,12 +314,13 @@ nav li :hover{
     flex-direction:column;
     justify-content:space-between;
     margin-top:7px;
-    margin-bottom:10px;
+    margin-bottom:15px;
 }
 
 .descriptif_label{
     display:flex;
     flex-direction:column;
+    margin-bottom:5px;
 }
 
 .descriptif h3{
@@ -730,6 +731,10 @@ footer div{
         min-width:fit-content;
         max-height: 14%;
        }
+
+    .bloc_hotel .stars{
+        margin-bottom: 12%;
+    }
    
        /* bloc activites a marseille */
    
@@ -1088,12 +1093,13 @@ footer div{
        flex-direction:column;
        justify-content:space-between;
        margin-top:7px;
-       margin-bottom:10px;
+       margin-bottom:15px;
    }
    
    .descriptif_label{
        display:flex;
        flex-direction:column;
+       margin-bottom:5px;
    }
    
    .descriptif h3{
