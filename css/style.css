@@ -392,10 +392,6 @@ figure{
     margin:6px;
 }
 
-figure a{
-    text-decoration: none;
-}
-
 figcaption{
     width:100%;
     padding-top:5%;
