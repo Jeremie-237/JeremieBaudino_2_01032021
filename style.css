@@ -376,12 +376,12 @@ nav li :hover{
     width:100%;
 }
 
-.bloc1{
+.bloc1 , .bloc2{
     width:24%;
 }
 
-.bloc2{
-    width:24%;
+.activites_a_marseille a{
+    text-decoration: none;
 }
 
 figure{
@@ -950,7 +950,7 @@ nav li :hover{
     font-size: medium;
 }
    
-.filtres :hover{
+.bouton_filtre:hover{
     background-color: #deebff
 }
    
