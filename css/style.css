@@ -196,7 +196,6 @@ nav li :hover{
 
 .main_section_hebergements{
     display:flex;
-    width: clamp(1200px, 95%, 1500px);
     flex-wrap: wrap;
     justify-content:space-evenly;
 }
