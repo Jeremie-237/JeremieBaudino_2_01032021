@@ -355,11 +355,19 @@ nav li :hover{
 }
 
 .image_longue{
-    height:25rem;
+    height:21.9rem;
 }
 
 .image_courte{
-    height:11rem;
+    height:8.8rem;
+}
+
+.image_courte1{
+    height:12rem;
+}
+
+.image_courte2{
+    height:5.5rem;
 }
 
 .activites_a_marseille{
@@ -399,6 +407,10 @@ figcaption{
     font-size: 1em;
     font-weight: bold;
     color: black;
+}
+
+.bloc2 figure{
+    margin-bottom: 25px;
 }
 
 /* footer */
@@ -581,12 +593,16 @@ nav ul{
     width:60px;
 }
     
-.image_courte , .image_longue{
-    height:180px;
+.image_courte , .image_longue , .image_courte2{
+    height:12rem;
 }
 
 figure{
     width:25vw;
+}
+
+.bloc1 figcaption{
+    padding-top: 3%;
 }
 
      /* footer */
@@ -764,7 +780,7 @@ nav li :hover{
     min-width: fit-content;
 }
 
-.image_courte , .image_longue{
+.image_courte , .image_longue , .image_courte1 , .image_courte2{
     height:150px;
 }
 
@@ -1131,13 +1147,21 @@ nav li :hover{
 }
    
 .image_longue{
-    height:25rem;
+    height:21.9rem;
 }
    
 .image_courte{
-    height:11rem;
+    height:8.8rem;
 }
    
+.image_courte1{
+    height:12rem;
+}
+
+.image_courte2{
+    height:5.5rem;
+}
+
 .activites_a_marseille{
     display:flex;
     flex-wrap: wrap;
@@ -1343,8 +1367,8 @@ nav ul{
     width:60px;
 }
        
-.image_courte , .image_longue{
-    height:180px;
+.image_courte , .image_longue , .image_courte2{
+    height:12rem;
 }
    
 figure{
@@ -1524,7 +1548,7 @@ nav li :hover{
     width:100%;
 }
         
-.image_courte , .image_longue{
+.image_courte , .image_longue , .image_courte1 , .image_courte2{
     height:150px;
 }
    
